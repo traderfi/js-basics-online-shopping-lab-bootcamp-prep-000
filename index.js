@@ -37,7 +37,7 @@ var cartItems = [];
 function viewCart() {
   // write your code here
   var keys = Object.keys(cart);
-<<<<<<< HEAD
+
   for (var i = 0; i < cart.length; i++) {
     if (1 < cart.length) {
         let j = 0;
