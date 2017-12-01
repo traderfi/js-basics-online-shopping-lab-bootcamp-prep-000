@@ -53,19 +53,7 @@ function viewCart() {
    if (cart.length == 0) {
      console.log('Your shopping cart is empty.');
 =======
-  for (var i = 0; i <= cart.length; i++) {
-    if (1 < cart.length) {
-        let j = 0;
-        while (j < cart.length) {
-          cart.push(`${keys[0]} at $${itemPrice}`);
-          j++;
-        }
-      console.log(`In your cart, you have ${line}.`);
-    } else if (cart.length === 1) {
-            console.log(`In your cart, you have ${keys[1]} at $${itemPrice}.`);
-    } else {
-        console.log('Your shopping cart is empty.');
-      }
+
 >>>>>>> 69040a62045315fa156b2532d01b1fb6d4d7c933
    }
 }
