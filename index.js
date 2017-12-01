@@ -42,7 +42,7 @@ function viewCart() {
     if (1 < cart.length) {
         let j = 0;
 
-        cart.push(`${Object.keys(cart)} at ${keys}`);
+        console.log(`${Object.keys(cart)} at ${keys}`);
         j++;
 
       console.log(`In your cart, you have .`);
