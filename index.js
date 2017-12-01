@@ -43,7 +43,7 @@ function viewCart() {
         let j = 0;
 
         console.log(`${Object.keys(cart)} at ${keys}`);
-        console.log(cart[j]);
+        console.log(cart[i]);
         j++;
 
       console.log(`In your cart, you have .`);
