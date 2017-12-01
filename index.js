@@ -40,8 +40,6 @@ function viewCart() {
 
   for (var i = 0; i < cart.length; i++) {
     if (1 < cart.length) {
-        let j = 0;
-
         console.log(`${Object.keys(cart)} at ${keys}`);
         console.log(cart[i]);
         j++;
